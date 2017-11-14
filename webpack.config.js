@@ -11,16 +11,16 @@ const config = {
     rules: [
       { test: /\.jsx$/, use: 'babel-loader', exclude: [/node_modules/] }
     ]
-  },
-  devServer: {
-    proxy: [
-      {
-        context: ['/api/**'],
-        target: 'http://localhost:4000',
-        secure: false
-      }
-    ]
   }
+  // devServer: {
+  //   proxy: [
+  //     {
+  //       context: ['/api/**'],
+  //       target: 'http://localhost:4000',
+  //       secure: false
+  //     }
+  //   ]
+  // }
 };
 
 module.exports = config;
