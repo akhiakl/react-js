@@ -22,5 +22,8 @@ cd node-app
 npm install
 npm start
 ```
+open http://localhost:8080
 
-open [http://localhost:8080]
+
+[React]: http://facebook.github.io/react/
+[webpack]: http://webpack.github.io/
